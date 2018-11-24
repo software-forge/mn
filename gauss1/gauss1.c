@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
 	if(!(n >= 3 && n <=10))
 		return -1;
 
-	// Zaalokowanie wierszy A
+	// Zaalokowanie macierzy A
 	A = (double**) malloc(n * sizeof(double*));
 	for(i = 0; i < n; i++)
 		A[i] = (double*) malloc(n * sizeof(double));
